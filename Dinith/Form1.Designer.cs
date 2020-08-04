@@ -55,6 +55,7 @@
             this.memberDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.memberDetailsTableAdapter = new Library_Management_System.LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.amctb);
             this.groupBox1.Controls.Add(this.ambtn);
@@ -73,18 +75,22 @@
             this.groupBox1.Controls.Add(this.amutb);
             this.groupBox1.Controls.Add(this.amntb);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(27, 169);
+            this.groupBox1.ForeColor = System.Drawing.Color.LightGray;
+            this.groupBox1.Location = new System.Drawing.Point(13, 129);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(1193, 186);
+            this.groupBox1.Size = new System.Drawing.Size(1207, 186);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add Member";
+            this.groupBox1.Text = "A d d   M e m b e r";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(399, 58);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
@@ -102,18 +108,23 @@
             // 
             // ambtn
             // 
-            this.ambtn.Location = new System.Drawing.Point(963, 118);
+            this.ambtn.BackColor = System.Drawing.Color.Black;
+            this.ambtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ambtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ambtn.Location = new System.Drawing.Point(963, 131);
             this.ambtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ambtn.Name = "ambtn";
             this.ambtn.Size = new System.Drawing.Size(112, 35);
             this.ambtn.TabIndex = 6;
             this.ambtn.Text = "ADD";
-            this.ambtn.UseVisualStyleBackColor = true;
+            this.ambtn.UseVisualStyleBackColor = false;
             this.ambtn.Click += new System.EventHandler(this.ambtn_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(399, 118);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -124,6 +135,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(50, 118);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -158,6 +171,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(50, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -167,6 +182,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.umdccb);
             this.groupBox2.Controls.Add(this.umdbtn);
@@ -174,19 +190,22 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.umdttb);
             this.groupBox2.Controls.Add(this.umdftb);
-            this.groupBox2.Location = new System.Drawing.Point(13, 365);
+            this.groupBox2.ForeColor = System.Drawing.Color.LightGray;
+            this.groupBox2.Location = new System.Drawing.Point(13, 352);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Size = new System.Drawing.Size(1207, 154);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Update Member Detail";
+            this.groupBox2.Text = "U p d a t e   M e m b e r   D e t a i l";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(54, 60);
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(50, 83);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 20);
@@ -202,7 +221,7 @@
             "Username",
             "Password",
             "ContactNo"});
-            this.umdccb.Location = new System.Drawing.Point(54, 89);
+            this.umdccb.Location = new System.Drawing.Point(54, 108);
             this.umdccb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdccb.Name = "umdccb";
             this.umdccb.Size = new System.Drawing.Size(180, 28);
@@ -210,19 +229,24 @@
             // 
             // umdbtn
             // 
-            this.umdbtn.Location = new System.Drawing.Point(963, 86);
+            this.umdbtn.BackColor = System.Drawing.Color.Black;
+            this.umdbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.umdbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.umdbtn.Location = new System.Drawing.Point(963, 99);
             this.umdbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdbtn.Name = "umdbtn";
             this.umdbtn.Size = new System.Drawing.Size(112, 35);
             this.umdbtn.TabIndex = 7;
             this.umdbtn.Text = "UPDATE";
-            this.umdbtn.UseVisualStyleBackColor = true;
+            this.umdbtn.UseVisualStyleBackColor = false;
             this.umdbtn.Click += new System.EventHandler(this.umdbtn_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(564, 65);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(564, 83);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(31, 20);
@@ -233,7 +257,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(278, 65);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(269, 83);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 20);
@@ -243,7 +269,7 @@
             // 
             // umdttb
             // 
-            this.umdttb.Location = new System.Drawing.Point(568, 89);
+            this.umdttb.Location = new System.Drawing.Point(568, 108);
             this.umdttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdttb.Name = "umdttb";
             this.umdttb.Size = new System.Drawing.Size(254, 26);
@@ -251,7 +277,7 @@
             // 
             // umdftb
             // 
-            this.umdftb.Location = new System.Drawing.Point(282, 89);
+            this.umdftb.Location = new System.Drawing.Point(273, 108);
             this.umdftb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdftb.Name = "umdftb";
             this.umdftb.Size = new System.Drawing.Size(246, 26);
@@ -259,9 +285,11 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.dmutb);
             this.groupBox3.Controls.Add(this.dmbtn);
+            this.groupBox3.ForeColor = System.Drawing.Color.LightGray;
             this.groupBox3.Location = new System.Drawing.Point(13, 538);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox3.Name = "groupBox3";
@@ -269,12 +297,13 @@
             this.groupBox3.Size = new System.Drawing.Size(1207, 154);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Delete Member";
+            this.groupBox3.Text = "D e l e t e   M e m b e r";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(54, 58);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(50, 80);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 20);
@@ -283,7 +312,7 @@
             // 
             // dmutb
             // 
-            this.dmutb.Location = new System.Drawing.Point(54, 83);
+            this.dmutb.Location = new System.Drawing.Point(54, 105);
             this.dmutb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dmutb.Name = "dmutb";
             this.dmutb.Size = new System.Drawing.Size(230, 26);
@@ -291,13 +320,17 @@
             // 
             // dmbtn
             // 
-            this.dmbtn.Location = new System.Drawing.Point(963, 80);
+            this.dmbtn.BackColor = System.Drawing.Color.Black;
+            this.dmbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dmbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.dmbtn.ForeColor = System.Drawing.Color.OrangeRed;
+            this.dmbtn.Location = new System.Drawing.Point(963, 96);
             this.dmbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dmbtn.Name = "dmbtn";
             this.dmbtn.Size = new System.Drawing.Size(112, 35);
             this.dmbtn.TabIndex = 6;
             this.dmbtn.Text = "DELETE";
-            this.dmbtn.UseVisualStyleBackColor = true;
+            this.dmbtn.UseVisualStyleBackColor = false;
             this.dmbtn.Click += new System.EventHandler(this.dmbtn_Click);
             // 
             // libraryDatabaseDataSet
@@ -328,17 +361,34 @@
             this.textBox1.TabIndex = 11;
             this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
             // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Library_Management_System.Properties.Resources.menu;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(1158, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 75);
+            this.button2.TabIndex = 11;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = global::Library_Management_System.Properties.Resources.grey;
             this.ClientSize = new System.Drawing.Size(1233, 749);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
@@ -386,6 +436,7 @@
         private LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter memberDetailsTableAdapter;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
