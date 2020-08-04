@@ -40,6 +40,8 @@
             this.amntb = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.umdccb = new System.Windows.Forms.ComboBox();
             this.umdbtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,11 +51,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.dmutb = new System.Windows.Forms.TextBox();
             this.dmbtn = new System.Windows.Forms.Button();
-            this.umdccb = new System.Windows.Forms.ComboBox();
             this.libraryDatabaseDataSet = new Library_Management_System.LibraryDatabaseDataSet();
             this.memberDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.memberDetailsTableAdapter = new Library_Management_System.LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter();
-            this.label9 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -72,9 +73,11 @@
             this.groupBox1.Controls.Add(this.amutb);
             this.groupBox1.Controls.Add(this.amntb);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(27, 169);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 121);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(1193, 186);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add Member";
@@ -82,24 +85,27 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(266, 38);
+            this.label6.Location = new System.Drawing.Point(399, 58);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.Size = new System.Drawing.Size(91, 20);
             this.label6.TabIndex = 8;
             this.label6.Text = "Contact no:";
             // 
             // amctb
             // 
-            this.amctb.Location = new System.Drawing.Point(269, 52);
+            this.amctb.Location = new System.Drawing.Point(404, 80);
+            this.amctb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amctb.Name = "amctb";
-            this.amctb.Size = new System.Drawing.Size(155, 20);
+            this.amctb.Size = new System.Drawing.Size(230, 26);
             this.amctb.TabIndex = 7;
             // 
             // ambtn
             // 
-            this.ambtn.Location = new System.Drawing.Point(642, 77);
+            this.ambtn.Location = new System.Drawing.Point(963, 118);
+            this.ambtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ambtn.Name = "ambtn";
-            this.ambtn.Size = new System.Drawing.Size(75, 23);
+            this.ambtn.Size = new System.Drawing.Size(112, 35);
             this.ambtn.TabIndex = 6;
             this.ambtn.Text = "ADD";
             this.ambtn.UseVisualStyleBackColor = true;
@@ -108,48 +114,54 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(266, 77);
+            this.label3.Location = new System.Drawing.Point(399, 118);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(82, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Password:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 77);
+            this.label2.Location = new System.Drawing.Point(50, 118);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.Size = new System.Drawing.Size(87, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Username:";
             // 
             // amptb
             // 
-            this.amptb.Location = new System.Drawing.Point(269, 91);
+            this.amptb.Location = new System.Drawing.Point(404, 140);
+            this.amptb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amptb.Name = "amptb";
-            this.amptb.Size = new System.Drawing.Size(155, 20);
+            this.amptb.Size = new System.Drawing.Size(230, 26);
             this.amptb.TabIndex = 3;
             // 
             // amutb
             // 
-            this.amutb.Location = new System.Drawing.Point(36, 91);
+            this.amutb.Location = new System.Drawing.Point(54, 140);
+            this.amutb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amutb.Name = "amutb";
-            this.amutb.Size = new System.Drawing.Size(155, 20);
+            this.amutb.Size = new System.Drawing.Size(230, 26);
             this.amutb.TabIndex = 2;
             // 
             // amntb
             // 
-            this.amntb.Location = new System.Drawing.Point(36, 54);
+            this.amntb.Location = new System.Drawing.Point(54, 83);
+            this.amntb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amntb.Name = "amntb";
-            this.amntb.Size = new System.Drawing.Size(155, 20);
+            this.amntb.Size = new System.Drawing.Size(230, 26);
             this.amntb.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 38);
+            this.label1.Location = new System.Drawing.Point(50, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(55, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name:";
             // 
@@ -162,94 +174,24 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.umdttb);
             this.groupBox2.Controls.Add(this.umdftb);
-            this.groupBox2.Location = new System.Drawing.Point(12, 153);
+            this.groupBox2.Location = new System.Drawing.Point(13, 365);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(776, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(1207, 154);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Update Member Detail";
             // 
-            // umdbtn
+            // label9
             // 
-            this.umdbtn.Location = new System.Drawing.Point(642, 56);
-            this.umdbtn.Name = "umdbtn";
-            this.umdbtn.Size = new System.Drawing.Size(75, 23);
-            this.umdbtn.TabIndex = 7;
-            this.umdbtn.Text = "UPDATE";
-            this.umdbtn.UseVisualStyleBackColor = true;
-            this.umdbtn.Click += new System.EventHandler(this.umdbtn_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(376, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "To:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(185, 42);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "From:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // umdttb
-            // 
-            this.umdttb.Location = new System.Drawing.Point(379, 58);
-            this.umdttb.Name = "umdttb";
-            this.umdttb.Size = new System.Drawing.Size(171, 20);
-            this.umdttb.TabIndex = 1;
-            // 
-            // umdftb
-            // 
-            this.umdftb.Location = new System.Drawing.Point(188, 58);
-            this.umdftb.Name = "umdftb";
-            this.umdftb.Size = new System.Drawing.Size(165, 20);
-            this.umdftb.TabIndex = 0;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.dmutb);
-            this.groupBox3.Controls.Add(this.dmbtn);
-            this.groupBox3.Location = new System.Drawing.Point(12, 299);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(776, 100);
-            this.groupBox3.TabIndex = 7;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Delete Member";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(36, 38);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Username:";
-            // 
-            // dmutb
-            // 
-            this.dmutb.Location = new System.Drawing.Point(36, 54);
-            this.dmutb.Name = "dmutb";
-            this.dmutb.Size = new System.Drawing.Size(155, 20);
-            this.dmutb.TabIndex = 9;
-            // 
-            // dmbtn
-            // 
-            this.dmbtn.Location = new System.Drawing.Point(642, 52);
-            this.dmbtn.Name = "dmbtn";
-            this.dmbtn.Size = new System.Drawing.Size(75, 23);
-            this.dmbtn.TabIndex = 6;
-            this.dmbtn.Text = "DELETE";
-            this.dmbtn.UseVisualStyleBackColor = true;
-            this.dmbtn.Click += new System.EventHandler(this.dmbtn_Click);
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(54, 60);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(69, 20);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Change:";
             // 
             // umdccb
             // 
@@ -260,10 +202,103 @@
             "Username",
             "Password",
             "ContactNo"});
-            this.umdccb.Location = new System.Drawing.Point(36, 58);
+            this.umdccb.Location = new System.Drawing.Point(54, 89);
+            this.umdccb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdccb.Name = "umdccb";
-            this.umdccb.Size = new System.Drawing.Size(121, 21);
+            this.umdccb.Size = new System.Drawing.Size(180, 28);
             this.umdccb.TabIndex = 9;
+            // 
+            // umdbtn
+            // 
+            this.umdbtn.Location = new System.Drawing.Point(963, 86);
+            this.umdbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.umdbtn.Name = "umdbtn";
+            this.umdbtn.Size = new System.Drawing.Size(112, 35);
+            this.umdbtn.TabIndex = 7;
+            this.umdbtn.Text = "UPDATE";
+            this.umdbtn.UseVisualStyleBackColor = true;
+            this.umdbtn.Click += new System.EventHandler(this.umdbtn_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(564, 65);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 20);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "To:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(278, 65);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "From:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // umdttb
+            // 
+            this.umdttb.Location = new System.Drawing.Point(568, 89);
+            this.umdttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.umdttb.Name = "umdttb";
+            this.umdttb.Size = new System.Drawing.Size(254, 26);
+            this.umdttb.TabIndex = 1;
+            // 
+            // umdftb
+            // 
+            this.umdftb.Location = new System.Drawing.Point(282, 89);
+            this.umdftb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.umdftb.Name = "umdftb";
+            this.umdftb.Size = new System.Drawing.Size(246, 26);
+            this.umdftb.TabIndex = 0;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.dmutb);
+            this.groupBox3.Controls.Add(this.dmbtn);
+            this.groupBox3.Location = new System.Drawing.Point(13, 538);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox3.Size = new System.Drawing.Size(1207, 154);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Delete Member";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(54, 58);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(87, 20);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Username:";
+            // 
+            // dmutb
+            // 
+            this.dmutb.Location = new System.Drawing.Point(54, 83);
+            this.dmutb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dmutb.Name = "dmutb";
+            this.dmutb.Size = new System.Drawing.Size(230, 26);
+            this.dmutb.TabIndex = 9;
+            // 
+            // dmbtn
+            // 
+            this.dmbtn.Location = new System.Drawing.Point(963, 80);
+            this.dmbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dmbtn.Name = "dmbtn";
+            this.dmbtn.Size = new System.Drawing.Size(112, 35);
+            this.dmbtn.TabIndex = 6;
+            this.dmbtn.Text = "DELETE";
+            this.dmbtn.UseVisualStyleBackColor = true;
+            this.dmbtn.Click += new System.EventHandler(this.dmbtn_Click);
             // 
             // libraryDatabaseDataSet
             // 
@@ -279,25 +314,35 @@
             // 
             this.memberDetailsTableAdapter.ClearBeforeFill = true;
             // 
-            // label9
+            // textBox1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(36, 39);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 13);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Change:";
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(-34, -31);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1281, 126);
+            this.textBox1.TabIndex = 11;
+            this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1233, 749);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Member Management Interface";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
@@ -309,6 +354,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.libraryDatabaseDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memberDetailsBindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -339,6 +385,7 @@
         private System.Windows.Forms.BindingSource memberDetailsBindingSource;
         private LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter memberDetailsTableAdapter;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

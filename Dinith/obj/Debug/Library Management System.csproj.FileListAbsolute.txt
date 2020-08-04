@@ -20,3 +20,4 @@ C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library_Management
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library Management System.csproj.GenerateResource.cache
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library Management System.exe
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library Management System.pdb
+C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library_Management_System.Form4.resources
