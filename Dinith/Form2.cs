@@ -13,7 +13,7 @@ namespace Library_Management_System
 {
     public partial class Form2 : Form
     {
-        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source =" + @"C:\DINITH\NSBM\LMS\C#\Library Management System\LibraryDatabase.mdb";
+        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = " + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\NSBM Smart Library System\nsbm\LibraryDatabase.mdb";
         public Form2()
         {
             InitializeComponent();
@@ -135,6 +135,16 @@ namespace Library_Management_System
                 bmltb.Clear();
                 con.Close();
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
