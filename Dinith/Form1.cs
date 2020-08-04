@@ -121,6 +121,13 @@ namespace Library_Management_System
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 openForm = new Form4();
+            openForm.ShowDialog();
+            Visible = false;
+        }
     }
 }
 

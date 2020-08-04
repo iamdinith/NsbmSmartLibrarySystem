@@ -111,7 +111,7 @@
             this.ambtn.BackColor = System.Drawing.Color.Black;
             this.ambtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ambtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ambtn.Location = new System.Drawing.Point(963, 131);
+            this.ambtn.Location = new System.Drawing.Point(1052, 131);
             this.ambtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ambtn.Name = "ambtn";
             this.ambtn.Size = new System.Drawing.Size(112, 35);
@@ -232,7 +232,7 @@
             this.umdbtn.BackColor = System.Drawing.Color.Black;
             this.umdbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.umdbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.umdbtn.Location = new System.Drawing.Point(963, 99);
+            this.umdbtn.Location = new System.Drawing.Point(1052, 99);
             this.umdbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.umdbtn.Name = "umdbtn";
             this.umdbtn.Size = new System.Drawing.Size(112, 35);
@@ -324,7 +324,7 @@
             this.dmbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dmbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.dmbtn.ForeColor = System.Drawing.Color.OrangeRed;
-            this.dmbtn.Location = new System.Drawing.Point(963, 96);
+            this.dmbtn.Location = new System.Drawing.Point(1052, 96);
             this.dmbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dmbtn.Name = "dmbtn";
             this.dmbtn.Size = new System.Drawing.Size(112, 35);
@@ -374,13 +374,14 @@
             this.button2.Size = new System.Drawing.Size(75, 75);
             this.button2.TabIndex = 11;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = global::Library_Management_System.Properties.Resources.grey;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1233, 749);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);

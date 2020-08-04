@@ -21,5 +21,19 @@ namespace Library_Management_System
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 openForm = new Form2();
+            openForm.Show();
+            Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 openForm = new Form1();
+            openForm.Show();
+            Visible = false;
+        }
     }
 }
