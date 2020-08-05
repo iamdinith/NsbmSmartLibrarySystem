@@ -362,6 +362,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(-34, -31);
@@ -371,6 +372,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1281, 126);
             this.textBox1.TabIndex = 11;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
             // 
             // button2

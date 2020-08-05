@@ -31,6 +31,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.abscb = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.abttb = new System.Windows.Forms.TextBox();
             this.abbtn = new System.Windows.Forms.Button();
@@ -46,11 +47,10 @@
             this.ubdttb = new System.Windows.Forms.TextBox();
             this.ubdftb = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.dbidtb = new System.Windows.Forms.TextBox();
             this.dbbtn = new System.Windows.Forms.Button();
-            this.abscb = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -70,6 +70,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1281, 126);
             this.textBox1.TabIndex = 12;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
             // 
             // button2
@@ -106,6 +107,19 @@
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "A d d   B o o k";
+            // 
+            // abscb
+            // 
+            this.abscb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.abscb.FormattingEnabled = true;
+            this.abscb.Items.AddRange(new object[] {
+            "Fiction",
+            "Non-Fiction"});
+            this.abscb.Location = new System.Drawing.Point(403, 138);
+            this.abscb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abscb.Name = "abscb";
+            this.abscb.Size = new System.Drawing.Size(180, 28);
+            this.abscb.TabIndex = 11;
             // 
             // label6
             // 
@@ -290,6 +304,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "D e l e t e   B o o k";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(54, 105);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(65, 26);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.Text = "LB";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -323,28 +346,6 @@
             this.dbbtn.Text = "DELETE";
             this.dbbtn.UseVisualStyleBackColor = false;
             this.dbbtn.Click += new System.EventHandler(this.dbbtn_Click_1);
-            // 
-            // abscb
-            // 
-            this.abscb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.abscb.FormattingEnabled = true;
-            this.abscb.Items.AddRange(new object[] {
-            "Fiction",
-            "Non-Fiction"});
-            this.abscb.Location = new System.Drawing.Point(403, 138);
-            this.abscb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abscb.Name = "abscb";
-            this.abscb.Size = new System.Drawing.Size(180, 28);
-            this.abscb.TabIndex = 11;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(54, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(65, 26);
-            this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "LB";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form5
             // 

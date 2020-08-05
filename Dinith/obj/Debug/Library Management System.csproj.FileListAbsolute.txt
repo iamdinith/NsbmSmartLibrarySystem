@@ -22,3 +22,4 @@ C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library Management
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library Management System.pdb
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library_Management_System.Form4.resources
 C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library_Management_System.Form5.resources
+C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dinith\obj\Debug\Library_Management_System.Form6.resources

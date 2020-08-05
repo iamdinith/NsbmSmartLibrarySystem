@@ -32,7 +32,7 @@
             this.memberDetailsTableAdapter1 = new Library_Management_System.LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.lobtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -93,19 +93,20 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // lobtn
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button4.Location = new System.Drawing.Point(346, 445);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(97, 31);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "l o g   o u t";
-            this.button4.UseVisualStyleBackColor = true;
+            this.lobtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lobtn.FlatAppearance.BorderSize = 0;
+            this.lobtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lobtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.lobtn.Location = new System.Drawing.Point(346, 445);
+            this.lobtn.Name = "lobtn";
+            this.lobtn.Size = new System.Drawing.Size(97, 31);
+            this.lobtn.TabIndex = 3;
+            this.lobtn.Text = "l o g   o u t";
+            this.lobtn.UseVisualStyleBackColor = true;
+            this.lobtn.Click += new System.EventHandler(this.lobtn_Click);
             // 
             // Form4
             // 
@@ -114,7 +115,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(455, 485);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.lobtn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -137,6 +138,6 @@
         private LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter memberDetailsTableAdapter1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button lobtn;
     }
 }

@@ -37,5 +37,12 @@ namespace Library_Management_System
             openForm.Show();
             Visible = false;
         }
+
+        private void lobtn_Click(object sender, EventArgs e)
+        {
+            Form6 openForm = new Form6();
+            openForm.Show();
+            Visible = false;
+        }
     }
 }
