@@ -78,7 +78,7 @@ namespace Library_Management_System
         private void dbbtn_Click_1(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            string query = "DELETE * FROM BookDetails WHERE BookID = " + dbidtb.Text + "";
+            string query = "DELETE * FROM BookDetails WHERE BookID = " + dbbidtb.Text + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -95,7 +95,7 @@ namespace Library_Management_System
 
             finally
             {
-                dbidtb.Clear();
+                dbbidtb.Clear();
                 con.Close();
             }
         }

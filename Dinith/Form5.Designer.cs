@@ -38,22 +38,31 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.abatb = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.ubdccb = new System.Windows.Forms.ComboBox();
-            this.ubdbtn = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.ubdttb = new System.Windows.Forms.TextBox();
-            this.ubdftb = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dbidtb = new System.Windows.Forms.TextBox();
+            this.dbbidtb = new System.Windows.Forms.TextBox();
             this.dbbtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.abisbntb = new System.Windows.Forms.TextBox();
+            this.abdtb = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.abctb = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.abptb = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.ubdccb = new System.Windows.Forms.ComboBox();
+            this.umdbtn = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ubdttb = new System.Windows.Forms.TextBox();
+            this.ubdbidtb = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -91,6 +100,14 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.abptb);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.abctb);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.abdtb);
+            this.groupBox1.Controls.Add(this.abisbntb);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.abscb);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.abttb);
@@ -111,34 +128,37 @@
             // abscb
             // 
             this.abscb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.abscb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.abscb.FormattingEnabled = true;
             this.abscb.Items.AddRange(new object[] {
             "Fiction",
             "Non-Fiction"});
-            this.abscb.Location = new System.Drawing.Point(403, 138);
+            this.abscb.Location = new System.Drawing.Point(488, 55);
             this.abscb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abscb.Name = "abscb";
-            this.abscb.Size = new System.Drawing.Size(180, 28);
+            this.abscb.Size = new System.Drawing.Size(180, 21);
             this.abscb.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(50, 56);
+            this.label6.Location = new System.Drawing.Point(51, 37);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 20);
+            this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 8;
             this.label6.Text = "Book Title:";
             // 
             // abttb
             // 
-            this.abttb.Location = new System.Drawing.Point(54, 81);
+            this.abttb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abttb.Location = new System.Drawing.Point(54, 55);
             this.abttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abttb.Name = "abttb";
-            this.abttb.Size = new System.Drawing.Size(580, 26);
+            this.abttb.Size = new System.Drawing.Size(393, 20);
             this.abttb.TabIndex = 7;
             // 
             // abbtn
@@ -159,11 +179,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(399, 118);
+            this.label3.Location = new System.Drawing.Point(485, 37);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 20);
+            this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Section:";
             // 
@@ -171,128 +192,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(50, 118);
+            this.label2.Location = new System.Drawing.Point(51, 123);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 20);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Author:";
             // 
             // abatb
             // 
-            this.abatb.Location = new System.Drawing.Point(54, 140);
+            this.abatb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abatb.Location = new System.Drawing.Point(54, 141);
             this.abatb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abatb.Name = "abatb";
-            this.abatb.Size = new System.Drawing.Size(230, 26);
+            this.abatb.Size = new System.Drawing.Size(393, 20);
             this.abatb.TabIndex = 2;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.ubdccb);
-            this.groupBox2.Controls.Add(this.ubdbtn);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.ubdttb);
-            this.groupBox2.Controls.Add(this.ubdftb);
-            this.groupBox2.ForeColor = System.Drawing.Color.LightGray;
-            this.groupBox2.Location = new System.Drawing.Point(13, 352);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Size = new System.Drawing.Size(1207, 154);
-            this.groupBox2.TabIndex = 15;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "U p d a t e   B o o k   D e t a i l";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(50, 83);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 20);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Change:";
-            // 
-            // ubdccb
-            // 
-            this.ubdccb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ubdccb.FormattingEnabled = true;
-            this.ubdccb.Items.AddRange(new object[] {
-            "BookTitle",
-            "BookAuthor",
-            "Section"});
-            this.ubdccb.Location = new System.Drawing.Point(54, 108);
-            this.ubdccb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ubdccb.Name = "ubdccb";
-            this.ubdccb.Size = new System.Drawing.Size(180, 28);
-            this.ubdccb.TabIndex = 9;
-            // 
-            // ubdbtn
-            // 
-            this.ubdbtn.BackColor = System.Drawing.Color.Black;
-            this.ubdbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ubdbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ubdbtn.Location = new System.Drawing.Point(1052, 99);
-            this.ubdbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ubdbtn.Name = "ubdbtn";
-            this.ubdbtn.Size = new System.Drawing.Size(112, 35);
-            this.ubdbtn.TabIndex = 7;
-            this.ubdbtn.Text = "UPDATE";
-            this.ubdbtn.UseVisualStyleBackColor = false;
-            this.ubdbtn.Click += new System.EventHandler(this.ubdbtn_Click_1);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(564, 83);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 20);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "To:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(269, 83);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "From:";
-            // 
-            // ubdttb
-            // 
-            this.ubdttb.Location = new System.Drawing.Point(568, 108);
-            this.ubdttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ubdttb.Name = "ubdttb";
-            this.ubdttb.Size = new System.Drawing.Size(254, 26);
-            this.ubdttb.TabIndex = 1;
-            // 
-            // ubdftb
-            // 
-            this.ubdftb.Location = new System.Drawing.Point(273, 108);
-            this.ubdftb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ubdftb.Name = "ubdftb";
-            this.ubdftb.Size = new System.Drawing.Size(246, 26);
-            this.ubdftb.TabIndex = 0;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.textBox2);
             this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.dbidtb);
+            this.groupBox3.Controls.Add(this.dbbidtb);
             this.groupBox3.Controls.Add(this.dbbtn);
             this.groupBox3.ForeColor = System.Drawing.Color.LightGray;
             this.groupBox3.Location = new System.Drawing.Point(13, 538);
@@ -324,13 +247,13 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Book ID:";
             // 
-            // dbidtb
+            // dbbidtb
             // 
-            this.dbidtb.Location = new System.Drawing.Point(129, 105);
-            this.dbidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dbidtb.Name = "dbidtb";
-            this.dbidtb.Size = new System.Drawing.Size(230, 26);
-            this.dbidtb.TabIndex = 9;
+            this.dbbidtb.Location = new System.Drawing.Point(129, 105);
+            this.dbbidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dbbidtb.Name = "dbbidtb";
+            this.dbbidtb.Size = new System.Drawing.Size(230, 26);
+            this.dbbidtb.TabIndex = 9;
             // 
             // dbbtn
             // 
@@ -347,6 +270,203 @@
             this.dbbtn.UseVisualStyleBackColor = false;
             this.dbbtn.Click += new System.EventHandler(this.dbbtn_Click_1);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(51, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "ISBN:";
+            // 
+            // abisbntb
+            // 
+            this.abisbntb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abisbntb.Location = new System.Drawing.Point(54, 98);
+            this.abisbntb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abisbntb.Name = "abisbntb";
+            this.abisbntb.Size = new System.Drawing.Size(393, 20);
+            this.abisbntb.TabIndex = 13;
+            // 
+            // abdtb
+            // 
+            this.abdtb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abdtb.Location = new System.Drawing.Point(488, 98);
+            this.abdtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abdtb.Multiline = true;
+            this.abdtb.Name = "abdtb";
+            this.abdtb.Size = new System.Drawing.Size(393, 63);
+            this.abdtb.TabIndex = 14;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(485, 80);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Description:";
+            // 
+            // abctb
+            // 
+            this.abctb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abctb.Location = new System.Drawing.Point(707, 56);
+            this.abctb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abctb.Name = "abctb";
+            this.abctb.Size = new System.Drawing.Size(174, 20);
+            this.abctb.TabIndex = 16;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(704, 38);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(34, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Price:";
+            // 
+            // abptb
+            // 
+            this.abptb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abptb.Location = new System.Drawing.Point(921, 56);
+            this.abptb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abptb.Name = "abptb";
+            this.abptb.Size = new System.Drawing.Size(243, 20);
+            this.abptb.TabIndex = 18;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(918, 37);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 13);
+            this.label11.TabIndex = 19;
+            this.label11.Text = "Publisher:";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.ubdccb);
+            this.groupBox2.Controls.Add(this.umdbtn);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.ubdttb);
+            this.groupBox2.Controls.Add(this.ubdbidtb);
+            this.groupBox2.ForeColor = System.Drawing.Color.LightGray;
+            this.groupBox2.Location = new System.Drawing.Point(13, 352);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(1207, 154);
+            this.groupBox2.TabIndex = 18;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "U p d a t e   B o o k   D e t a i l";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(54, 108);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(65, 26);
+            this.textBox7.TabIndex = 11;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(394, 81);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(69, 20);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Change:";
+            // 
+            // ubdccb
+            // 
+            this.ubdccb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ubdccb.FormattingEnabled = true;
+            this.ubdccb.Items.AddRange(new object[] {
+            "Name",
+            "Username",
+            "Password",
+            "ContactNo"});
+            this.ubdccb.Location = new System.Drawing.Point(398, 104);
+            this.ubdccb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ubdccb.Name = "ubdccb";
+            this.ubdccb.Size = new System.Drawing.Size(207, 28);
+            this.ubdccb.TabIndex = 9;
+            // 
+            // umdbtn
+            // 
+            this.umdbtn.BackColor = System.Drawing.Color.Black;
+            this.umdbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.umdbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.umdbtn.Location = new System.Drawing.Point(1052, 99);
+            this.umdbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.umdbtn.Name = "umdbtn";
+            this.umdbtn.Size = new System.Drawing.Size(112, 35);
+            this.umdbtn.TabIndex = 7;
+            this.umdbtn.Text = "UPDATE";
+            this.umdbtn.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(628, 81);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 20);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "To:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(50, 81);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Book ID:";
+            // 
+            // ubdttb
+            // 
+            this.ubdttb.Location = new System.Drawing.Point(632, 106);
+            this.ubdttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ubdttb.Name = "ubdttb";
+            this.ubdttb.Size = new System.Drawing.Size(230, 26);
+            this.ubdttb.TabIndex = 1;
+            // 
+            // ubdbidtb
+            // 
+            this.ubdbidtb.Location = new System.Drawing.Point(126, 108);
+            this.ubdbidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ubdbidtb.Name = "ubdbidtb";
+            this.ubdbidtb.Size = new System.Drawing.Size(251, 26);
+            this.ubdbidtb.TabIndex = 0;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -354,8 +474,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1233, 749);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -369,10 +489,10 @@
             this.Text = "Book Management Interface";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,19 +509,28 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox abatb;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox ubdccb;
-        private System.Windows.Forms.Button ubdbtn;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox ubdttb;
-        private System.Windows.Forms.TextBox ubdftb;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox dbidtb;
+        private System.Windows.Forms.TextBox dbbidtb;
         private System.Windows.Forms.Button dbbtn;
         private System.Windows.Forms.ComboBox abscb;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox abptb;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox abctb;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox abdtb;
+        private System.Windows.Forms.TextBox abisbntb;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox ubdccb;
+        private System.Windows.Forms.Button umdbtn;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox ubdttb;
+        private System.Windows.Forms.TextBox ubdbidtb;
     }
 }

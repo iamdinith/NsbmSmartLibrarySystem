@@ -30,7 +30,7 @@ namespace Library_Management_System
         private void ambtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "INSERT INTO MemberDetails([Name],[Username],[Password],[ContactNo]) VALUES ('"+amntb.Text+"','"+amutb.Text+"','"+amptb.Text+ "','"+amctb.Text+"')";
+            String query = "INSERT INTO MemberDetails([Name],[Username],[Password],[ContactNo]) VALUES ('"+amfntb.Text+"','"+amptb.Text+"','"+amutb.Text+ "','"+amctb.Text+"')";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -47,9 +47,9 @@ namespace Library_Management_System
 
             finally
             {
-                amntb.Clear();
-                amutb.Clear();
+                amfntb.Clear();
                 amptb.Clear();
+                amutb.Clear();
                 amctb.Clear();
                 con.Close();
             }
@@ -58,7 +58,7 @@ namespace Library_Management_System
         private void umdbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "UPDATE MemberDetails SET " + umdccb.Text.ToString() + " = '" + umdttb.Text.ToString()+ "' WHERE " + umdccb.Text.ToString() + " = '" + umdftb.Text.ToString() + "'";
+            String query = "UPDATE MemberDetails SET [" + umdccb.Text.ToString() + "] = '" + umdttb.Text.ToString()+ "' WHERE MemberID = " + umdmidtb.Text.ToString() + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -76,7 +76,7 @@ namespace Library_Management_System
             finally
             {
                 umdttb.Clear();
-                umdftb.Clear();
+                umdmidtb.Clear();
                 con.Close();
             }
 
@@ -95,7 +95,7 @@ namespace Library_Management_System
         private void dmbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            string query = "DELETE * FROM MemberDetails WHERE MemberID = " + dmutb.Text + "";
+            string query = "DELETE * FROM MemberDetails WHERE MemberID = " + dmmidtb.Text + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -112,7 +112,7 @@ namespace Library_Management_System
 
             finally
             {
-                dmutb.Clear();
+                dmmidtb.Clear();
                 con.Close();
             }
         }
