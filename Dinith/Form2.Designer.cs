@@ -47,6 +47,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -104,6 +106,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.bmbrbtn);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.bmbidtb);
@@ -124,10 +127,10 @@
             this.bmbrbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bmbrbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bmbrbtn.ForeColor = System.Drawing.Color.LightGray;
-            this.bmbrbtn.Location = new System.Drawing.Point(67, 119);
+            this.bmbrbtn.Location = new System.Drawing.Point(68, 119);
             this.bmbrbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bmbrbtn.Name = "bmbrbtn";
-            this.bmbrbtn.Size = new System.Drawing.Size(196, 33);
+            this.bmbrbtn.Size = new System.Drawing.Size(184, 33);
             this.bmbrbtn.TabIndex = 2;
             this.bmbrbtn.Text = "BOOK RETURNED";
             this.bmbrbtn.UseVisualStyleBackColor = false;
@@ -137,7 +140,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 86);
+            this.label1.Location = new System.Drawing.Point(64, 60);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 20);
@@ -146,7 +149,7 @@
             // 
             // bmbidtb
             // 
-            this.bmbidtb.Location = new System.Drawing.Point(142, 83);
+            this.bmbidtb.Location = new System.Drawing.Point(131, 83);
             this.bmbidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bmbidtb.Name = "bmbidtb";
             this.bmbidtb.Size = new System.Drawing.Size(121, 26);
@@ -223,7 +226,7 @@
             this.bmlbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bmlbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bmlbtn.ForeColor = System.Drawing.Color.LightGray;
-            this.bmlbtn.Location = new System.Drawing.Point(589, 667);
+            this.bmlbtn.Location = new System.Drawing.Point(588, 667);
             this.bmlbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bmlbtn.Name = "bmlbtn";
             this.bmlbtn.Size = new System.Drawing.Size(66, 37);
@@ -234,7 +237,7 @@
             // 
             // bmltb
             // 
-            this.bmltb.Location = new System.Drawing.Point(589, 633);
+            this.bmltb.Location = new System.Drawing.Point(661, 633);
             this.bmltb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bmltb.Name = "bmltb";
             this.bmltb.Size = new System.Drawing.Size(149, 26);
@@ -285,6 +288,24 @@
     ":";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(588, 633);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(56, 26);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.Text = "LB";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(68, 83);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(56, 26);
+            this.textBox3.TabIndex = 12;
+            this.textBox3.Text = "LB";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -293,6 +314,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1233, 749);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -340,5 +362,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

@@ -13,7 +13,7 @@ namespace Library_Management_System
 {
     public partial class Form1 : Form
     {
-        string accesscon = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\NSBM Smart Library System\nsbm\LibraryDatabase.mdb";
+        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = " + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\NSBM Smart Library System\nsbm\LibraryDatabase.mdb";
 
         public Form1()
         {
@@ -95,7 +95,7 @@ namespace Library_Management_System
         private void dmbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "DELETE * FROM MemberDetails WHERE Username = '"+dmutb.Text.ToString()+"'";
+            string query = "DELETE * FROM MemberDetails WHERE MemberID = " + dmutb.Text + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try

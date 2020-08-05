@@ -69,9 +69,9 @@ namespace Library_Management_System
         private void bmbrbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "DELETE * FROM Borrowed WHERE BookID = '" + bmbidtb.Text.ToString() + "'";
+            String query = "DELETE * FROM Borrowed WHERE BookID = 'LB" + bmbidtb.Text.ToString() + "'";
             OleDbCommand cmd = new OleDbCommand(query, con);
-            String query2 = "UPDATE BookDetails SET Availability = 'In Library' WHERE BookID ='" + bmbidtb.Text.ToString() + "'";
+            String query2 = "UPDATE BookDetails SET Availability = 'In Library' WHERE BookID =" + bmbidtb.Text.ToString() + "";
             OleDbCommand cmd2 = new OleDbCommand(query2, con);
 
             try
@@ -109,9 +109,9 @@ namespace Library_Management_System
         private void bmlbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "UPDATE Borrowed SET Availability = 'Lent' WHERE BookID ='" + bmltb.Text.ToString() + "'";
+            String query = "UPDATE Borrowed SET Availability = 'Lent' WHERE BookID ='LB" + bmltb.Text.ToString() + "'";
             OleDbCommand cmd = new OleDbCommand(query, con);
-            String query2 = "UPDATE BookDetails SET Availability = 'Lent' WHERE BookID ='" + bmltb.Text.ToString() + "'";
+            String query2 = "UPDATE BookDetails SET Availability = 'Lent' WHERE BookID =" + bmltb.Text.ToString() + "";
             OleDbCommand cmd2 = new OleDbCommand(query2, con);
 
 
