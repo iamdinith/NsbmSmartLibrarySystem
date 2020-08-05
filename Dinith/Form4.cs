@@ -19,7 +19,9 @@ namespace Library_Management_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form5 openForm = new Form5();
+            openForm.Show();
+            Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)

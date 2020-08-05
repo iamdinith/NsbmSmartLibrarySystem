@@ -36,10 +36,7 @@
             this.abbtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.abstb = new System.Windows.Forms.TextBox();
             this.abatb = new System.Windows.Forms.TextBox();
-            this.abidtb = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.ubdccb = new System.Windows.Forms.ComboBox();
@@ -52,6 +49,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.dbidtb = new System.Windows.Forms.TextBox();
             this.dbbtn = new System.Windows.Forms.Button();
+            this.abscb = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -61,12 +60,14 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(-34, -31);
             this.textBox1.Margin = new System.Windows.Forms.Padding(0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1281, 126);
             this.textBox1.TabIndex = 12;
             this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
@@ -84,19 +85,18 @@
             this.button2.Size = new System.Drawing.Size(75, 75);
             this.button2.TabIndex = 13;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.abscb);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.abttb);
             this.groupBox1.Controls.Add(this.abbtn);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.abstb);
             this.groupBox1.Controls.Add(this.abatb);
-            this.groupBox1.Controls.Add(this.abidtb);
-            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.ForeColor = System.Drawing.Color.LightGray;
             this.groupBox1.Location = new System.Drawing.Point(13, 129);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -112,7 +112,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(399, 58);
+            this.label6.Location = new System.Drawing.Point(50, 56);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 20);
@@ -121,10 +121,10 @@
             // 
             // abttb
             // 
-            this.abttb.Location = new System.Drawing.Point(404, 80);
+            this.abttb.Location = new System.Drawing.Point(54, 81);
             this.abttb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abttb.Name = "abttb";
-            this.abttb.Size = new System.Drawing.Size(230, 26);
+            this.abttb.Size = new System.Drawing.Size(580, 26);
             this.abttb.TabIndex = 7;
             // 
             // abbtn
@@ -139,6 +139,7 @@
             this.abbtn.TabIndex = 6;
             this.abbtn.Text = "ADD";
             this.abbtn.UseVisualStyleBackColor = false;
+            this.abbtn.Click += new System.EventHandler(this.abbtn_Click_1);
             // 
             // label3
             // 
@@ -164,14 +165,6 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Author:";
             // 
-            // abstb
-            // 
-            this.abstb.Location = new System.Drawing.Point(404, 140);
-            this.abstb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abstb.Name = "abstb";
-            this.abstb.Size = new System.Drawing.Size(230, 26);
-            this.abstb.TabIndex = 3;
-            // 
             // abatb
             // 
             this.abatb.Location = new System.Drawing.Point(54, 140);
@@ -179,26 +172,6 @@
             this.abatb.Name = "abatb";
             this.abatb.Size = new System.Drawing.Size(230, 26);
             this.abatb.TabIndex = 2;
-            // 
-            // abidtb
-            // 
-            this.abidtb.Location = new System.Drawing.Point(54, 83);
-            this.abidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abidtb.Name = "abidtb";
-            this.abidtb.Size = new System.Drawing.Size(230, 26);
-            this.abidtb.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(50, 58);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Book ID:";
             // 
             // groupBox2
             // 
@@ -258,6 +231,7 @@
             this.ubdbtn.TabIndex = 7;
             this.ubdbtn.Text = "UPDATE";
             this.ubdbtn.UseVisualStyleBackColor = false;
+            this.ubdbtn.Click += new System.EventHandler(this.ubdbtn_Click_1);
             // 
             // label5
             // 
@@ -302,6 +276,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.textBox2);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.dbidtb);
             this.groupBox3.Controls.Add(this.dbbtn);
@@ -328,7 +303,7 @@
             // 
             // dbidtb
             // 
-            this.dbidtb.Location = new System.Drawing.Point(54, 105);
+            this.dbidtb.Location = new System.Drawing.Point(129, 105);
             this.dbidtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dbidtb.Name = "dbidtb";
             this.dbidtb.Size = new System.Drawing.Size(230, 26);
@@ -347,6 +322,29 @@
             this.dbbtn.TabIndex = 6;
             this.dbbtn.Text = "DELETE";
             this.dbbtn.UseVisualStyleBackColor = false;
+            this.dbbtn.Click += new System.EventHandler(this.dbbtn_Click_1);
+            // 
+            // abscb
+            // 
+            this.abscb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.abscb.FormattingEnabled = true;
+            this.abscb.Items.AddRange(new object[] {
+            "Fiction",
+            "Non-Fiction"});
+            this.abscb.Location = new System.Drawing.Point(403, 138);
+            this.abscb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abscb.Name = "abscb";
+            this.abscb.Size = new System.Drawing.Size(180, 28);
+            this.abscb.TabIndex = 11;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(54, 105);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(65, 26);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.Text = "LB";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form5
             // 
@@ -389,10 +387,7 @@
         private System.Windows.Forms.Button abbtn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox abstb;
         private System.Windows.Forms.TextBox abatb;
-        private System.Windows.Forms.TextBox abidtb;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox ubdccb;
@@ -405,5 +400,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox dbidtb;
         private System.Windows.Forms.Button dbbtn;
+        private System.Windows.Forms.ComboBox abscb;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

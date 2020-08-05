@@ -48,6 +48,7 @@
             this.umdttb = new System.Windows.Forms.TextBox();
             this.umdftb = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.dmutb = new System.Windows.Forms.TextBox();
             this.dmbtn = new System.Windows.Forms.Button();
@@ -56,7 +57,6 @@
             this.memberDetailsTableAdapter = new Library_Management_System.LibraryDatabaseDataSetTableAdapters.MemberDetailsTableAdapter();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -301,6 +301,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "D e l e t e   M e m b e r";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(54, 103);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(65, 26);
+            this.textBox2.TabIndex = 10;
+            this.textBox2.Text = "LBMID";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -359,6 +368,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1281, 126);
             this.textBox1.TabIndex = 11;
             this.textBox1.Text = "     \r\n     NSBM\r\n     Smart Library System\r\n";
@@ -377,15 +387,6 @@
             this.button2.TabIndex = 11;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(54, 103);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(65, 26);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.Text = "LBMID";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
