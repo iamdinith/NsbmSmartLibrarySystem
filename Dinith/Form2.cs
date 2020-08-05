@@ -13,7 +13,7 @@ namespace Library_Management_System
 {
     public partial class Form2 : Form
     {
-        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = " + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\NSBM Smart Library System\nsbm\LibraryDatabase.mdb";
+        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source =" + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dileka\Library1.mdb";
         public Form2()
         {
             InitializeComponent();
@@ -24,7 +24,7 @@ namespace Library_Management_System
         {
             OleDbConnection con = new OleDbConnection(accesscon);
             con.Open();
-            string query = "SELECT * FROM Borrowed ORDER BY BorrowID DESC";
+            string query = "SELECT * FROM Borrowed ORDER BY BorrwedID DESC";
 
             OleDbDataAdapter adapt = new OleDbDataAdapter(query, accesscon);
             DataSet set = new DataSet();
@@ -40,7 +40,7 @@ namespace Library_Management_System
         {
             OleDbConnection con = new OleDbConnection(accesscon);
             con.Open();
-            string query = "SELECT * FROM PositionData WHERE BookID = '" + bmftb.Text.ToString() + "'";
+            string query = "SELECT * FROM PositionData WHERE B_ID = '" + bmftb.Text.ToString() + "'";
 
             OleDbDataAdapter adapt = new OleDbDataAdapter(query, accesscon);
             DataSet set = new DataSet();
@@ -69,9 +69,9 @@ namespace Library_Management_System
         private void bmbrbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "DELETE * FROM Borrowed WHERE BookID = 'LB" + bmbidtb.Text.ToString() + "'";
+            String query = "DELETE * FROM Borrowed WHERE B_ID = 'BID" + bmbidtb.Text.ToString() + "'";
             OleDbCommand cmd = new OleDbCommand(query, con);
-            String query2 = "UPDATE BookDetails SET Availability = 'In Library' WHERE BookID =" + bmbidtb.Text.ToString() + "";
+            String query2 = "UPDATE Books SET Availability = 'In Library' WHERE B_ID =" + bmbidtb.Text.ToString() + "";
             OleDbCommand cmd2 = new OleDbCommand(query2, con);
 
             try
@@ -109,9 +109,9 @@ namespace Library_Management_System
         private void bmlbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "UPDATE Borrowed SET Availability = 'Lent' WHERE BookID ='LB" + bmltb.Text.ToString() + "'";
+            String query = "UPDATE Borrowed SET Availability = 'Lent' WHERE B_ID ='BID" + bmltb.Text.ToString() + "'";
             OleDbCommand cmd = new OleDbCommand(query, con);
-            String query2 = "UPDATE BookDetails SET Availability = 'Lent' WHERE BookID =" + bmltb.Text.ToString() + "";
+            String query2 = "UPDATE Books SET Availability = 'Lent' WHERE B_ID =" + bmltb.Text.ToString() + "";
             OleDbCommand cmd2 = new OleDbCommand(query2, con);
 
 

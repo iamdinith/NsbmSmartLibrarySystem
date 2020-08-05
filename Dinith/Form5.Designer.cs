@@ -31,6 +31,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.abptb = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.abctb = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.abdtb = new System.Windows.Forms.TextBox();
+            this.abisbntb = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.abscb = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.abttb = new System.Windows.Forms.TextBox();
@@ -43,14 +51,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.dbbidtb = new System.Windows.Forms.TextBox();
             this.dbbtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.abisbntb = new System.Windows.Forms.TextBox();
-            this.abdtb = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.abctb = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.abptb = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -125,6 +125,95 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "A d d   B o o k";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(918, 37);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 13);
+            this.label11.TabIndex = 19;
+            this.label11.Text = "Publisher:";
+            // 
+            // abptb
+            // 
+            this.abptb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abptb.Location = new System.Drawing.Point(921, 56);
+            this.abptb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abptb.Name = "abptb";
+            this.abptb.Size = new System.Drawing.Size(243, 20);
+            this.abptb.TabIndex = 18;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(704, 38);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(34, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Price:";
+            // 
+            // abctb
+            // 
+            this.abctb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abctb.Location = new System.Drawing.Point(707, 56);
+            this.abctb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abctb.Name = "abctb";
+            this.abctb.Size = new System.Drawing.Size(174, 20);
+            this.abctb.TabIndex = 16;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(485, 80);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Description:";
+            // 
+            // abdtb
+            // 
+            this.abdtb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abdtb.Location = new System.Drawing.Point(488, 98);
+            this.abdtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abdtb.Multiline = true;
+            this.abdtb.Name = "abdtb";
+            this.abdtb.Size = new System.Drawing.Size(393, 63);
+            this.abdtb.TabIndex = 14;
+            // 
+            // abisbntb
+            // 
+            this.abisbntb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abisbntb.Location = new System.Drawing.Point(54, 98);
+            this.abisbntb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abisbntb.Name = "abisbntb";
+            this.abisbntb.Size = new System.Drawing.Size(393, 20);
+            this.abisbntb.TabIndex = 13;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(51, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "ISBN:";
+            // 
             // abscb
             // 
             this.abscb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -132,7 +221,12 @@
             this.abscb.FormattingEnabled = true;
             this.abscb.Items.AddRange(new object[] {
             "Fiction",
-            "Non-Fiction"});
+            "Non-Fiction",
+            "Translation",
+            "Novel",
+            "Poetry",
+            "Math",
+            "Science"});
             this.abscb.Location = new System.Drawing.Point(488, 55);
             this.abscb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abscb.Name = "abscb";
@@ -231,9 +325,10 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(54, 105);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(65, 26);
             this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "LB";
+            this.textBox2.Text = "BID";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
@@ -270,95 +365,6 @@
             this.dbbtn.UseVisualStyleBackColor = false;
             this.dbbtn.Click += new System.EventHandler(this.dbbtn_Click_1);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(51, 80);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "ISBN:";
-            // 
-            // abisbntb
-            // 
-            this.abisbntb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.abisbntb.Location = new System.Drawing.Point(54, 98);
-            this.abisbntb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abisbntb.Name = "abisbntb";
-            this.abisbntb.Size = new System.Drawing.Size(393, 20);
-            this.abisbntb.TabIndex = 13;
-            // 
-            // abdtb
-            // 
-            this.abdtb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.abdtb.Location = new System.Drawing.Point(488, 98);
-            this.abdtb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abdtb.Multiline = true;
-            this.abdtb.Name = "abdtb";
-            this.abdtb.Size = new System.Drawing.Size(393, 63);
-            this.abdtb.TabIndex = 14;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(485, 80);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Description:";
-            // 
-            // abctb
-            // 
-            this.abctb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.abctb.Location = new System.Drawing.Point(707, 56);
-            this.abctb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abctb.Name = "abctb";
-            this.abctb.Size = new System.Drawing.Size(174, 20);
-            this.abctb.TabIndex = 16;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(704, 38);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 13);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Price:";
-            // 
-            // abptb
-            // 
-            this.abptb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.abptb.Location = new System.Drawing.Point(921, 56);
-            this.abptb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.abptb.Name = "abptb";
-            this.abptb.Size = new System.Drawing.Size(243, 20);
-            this.abptb.TabIndex = 18;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(918, 37);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 13);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Publisher:";
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
@@ -384,8 +390,11 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(54, 108);
             this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(65, 26);
             this.textBox7.TabIndex = 11;
+            this.textBox7.Text = "BID";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
             // 
@@ -404,10 +413,12 @@
             this.ubdccb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ubdccb.FormattingEnabled = true;
             this.ubdccb.Items.AddRange(new object[] {
-            "Name",
-            "Username",
-            "Password",
-            "ContactNo"});
+            "B_Name",
+            "B_discptn",
+            "B_Price(Rs)",
+            "A_Name",
+            "B_Category",
+            "B_Publisher"});
             this.ubdccb.Location = new System.Drawing.Point(398, 104);
             this.ubdccb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ubdccb.Name = "ubdccb";
@@ -426,6 +437,7 @@
             this.umdbtn.TabIndex = 7;
             this.umdbtn.Text = "UPDATE";
             this.umdbtn.UseVisualStyleBackColor = false;
+            this.umdbtn.Click += new System.EventHandler(this.umdbtn_Click);
             // 
             // label5
             // 

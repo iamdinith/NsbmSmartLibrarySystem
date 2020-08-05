@@ -13,7 +13,7 @@ namespace Library_Management_System
 {
     public partial class Form1 : Form
     {
-        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = " + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\NSBM Smart Library System\nsbm\LibraryDatabase.mdb";
+        string accesscon = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source =" + @"C:\DINITH\NSBM\LMS\C#\NsbmSmartLibrarySystem\Dileka\Library1.mdb";
 
         public Form1()
         {
@@ -30,7 +30,7 @@ namespace Library_Management_System
         private void ambtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "INSERT INTO MemberDetails([Name],[Username],[Password],[ContactNo]) VALUES ('"+amfntb.Text+"','"+amptb.Text+"','"+amutb.Text+ "','"+amctb.Text+"')";
+            String query = "INSERT INTO Users([U_FullName],[U_Bdy],[U_NIC],[U_Address],[U_Email],[U_Tel],[U_Gender],[Password],[Username]) VALUES ('"+amfntb.Text+"','"+amdp.Text+"','"+amnictb.Text+ "','"+amratb.Text+ "','" + ameatb.Text + "','" + amctb.Text + "','" + amgcb.Text + "','" + amptb.Text + "','" + amutb.Text + "')";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -48,6 +48,10 @@ namespace Library_Management_System
             finally
             {
                 amfntb.Clear();
+                //amdp.ResetText();
+                amnictb.Clear();
+                amratb.Clear();
+                ameatb.Clear();
                 amptb.Clear();
                 amutb.Clear();
                 amctb.Clear();
@@ -58,7 +62,7 @@ namespace Library_Management_System
         private void umdbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            String query = "UPDATE MemberDetails SET [" + umdccb.Text.ToString() + "] = '" + umdttb.Text.ToString()+ "' WHERE MemberID = " + umdmidtb.Text.ToString() + "";
+            String query = "UPDATE Users SET [" + umdccb.Text.ToString() + "] = '" + umdttb.Text.ToString()+ "' WHERE U_ID = " + umdmidtb.Text.ToString() + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try
@@ -95,7 +99,7 @@ namespace Library_Management_System
         private void dmbtn_Click(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(accesscon);
-            string query = "DELETE * FROM MemberDetails WHERE MemberID = " + dmmidtb.Text + "";
+            string query = "DELETE * FROM Users WHERE U_ID = " + dmmidtb.Text + "";
             OleDbCommand cmd = new OleDbCommand(query, con);
 
             try

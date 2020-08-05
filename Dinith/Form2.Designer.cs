@@ -125,9 +125,10 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(68, 83);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(56, 26);
             this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "LB";
+            this.textBox3.Text = "BID";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bmbrbtn
@@ -304,9 +305,10 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(588, 633);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(56, 26);
             this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "LB";
+            this.textBox2.Text = "BID";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form2
