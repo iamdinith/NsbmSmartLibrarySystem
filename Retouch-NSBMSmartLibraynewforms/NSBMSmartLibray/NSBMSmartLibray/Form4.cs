@@ -17,60 +17,27 @@ namespace NSBMSmartLibray
             InitializeComponent();
         }
 
-        private void panel8_Paint(object sender, PaintEventArgs e)
-        {
-            panel8.BackColor = Color.FromArgb(100, 0, 0, 0);
-        }
+        
 
-        private void panel12_Paint(object sender, PaintEventArgs e)
-        {
-            panel12.BackColor = Color.FromArgb(150, 0, 210, 10);
-        }
+        
 
-        private void panel15_Paint(object sender, PaintEventArgs e)
-        {
-            panel15.BackColor = Color.FromArgb(150, 0, 120, 10);
-        }
+       
 
-        private void panel20_Paint(object sender, PaintEventArgs e)
-        {
-            panel20.BackColor = Color.FromArgb(150, 50, 120, 10);
-        }
+       
 
-        private void panel13_Paint(object sender, PaintEventArgs e)
-        {
-            panel13.BackColor = Color.FromArgb(150, 0, 13, 250);
-        }
+        
 
-        private void panel19_Paint(object sender, PaintEventArgs e)
-        {
-            panel19.BackColor = Color.FromArgb(150, 0, 13, 150);
-        }
+        
 
-        private void panel17_Paint(object sender, PaintEventArgs e)
-        {
-            panel17.BackColor = Color.FromArgb(150, 50, 130, 210);
-        }
+       
 
-        private void panel14_Paint(object sender, PaintEventArgs e)
-        {
-            panel14.BackColor = Color.FromArgb(150, 242, 38, 19);
-        }
+       
 
-        private void panel21_Paint(object sender, PaintEventArgs e)
-        {
-            panel21.BackColor = Color.FromArgb(150, 242, 138, 129);
-        }
+        
 
-        private void panel18_Paint(object sender, PaintEventArgs e)
-        {
-            panel18.BackColor = Color.FromArgb(150, 242, 38, 190);
-        }
+       
 
-        private void panel16_Paint(object sender, PaintEventArgs e)
-        {
-            panel16.BackColor = Color.FromArgb(150, 242, 198, 159);
-        }
+        
 
         private void button12_Click(object sender, EventArgs e)
         {
