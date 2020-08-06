@@ -1,0 +1,36 @@
+C:\Users\ADMIN\source\repos\nsbm\nsbm\bin\Debug\nsbm.exe.config
+C:\Users\ADMIN\source\repos\nsbm\nsbm\bin\Debug\nsbm.exe
+C:\Users\ADMIN\source\repos\nsbm\nsbm\bin\Debug\nsbm.pdb
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form1.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form2.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form3.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form4.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form5.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form6.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form7.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form8.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.exe
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.pdb
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form10.resources
+C:\Users\ADMIN\source\repos\nsbm\nsbm\obj\Debug\nsbm.Form9.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\bin\Debug\nsbm.exe.config
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\bin\Debug\nsbm.exe
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\bin\Debug\nsbm.pdb
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.csprojAssemblyReference.cache
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form1.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form10.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form2.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form3.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form4.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form5.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form6.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form7.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form8.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Form9.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.Properties.Resources.resources
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.csproj.GenerateResource.cache
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.exe
+C:\DINITH\NSBM\LMS\C#\NSBM Smart Library System\nsbm-1\nsbm\nsbm\obj\Debug\nsbm.pdb
